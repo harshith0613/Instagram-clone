@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+.login-container {
+    width: 400px;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+  }
+
+.instagram-logo {
+    width: 200px;
+    height: 100px;
+}
+
+.input-field {
+    background-color: #fafafa;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.input-button{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: as;
+}
+
+button {
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007bbd;
+  }
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .line {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+  }
+
+  .app-store-links{
+    padding-left: 40px;
+    width: 250px;
+    height: 100px;
+  }
